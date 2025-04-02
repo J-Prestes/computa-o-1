@@ -8,13 +8,13 @@ int main ()
 
     if(hora>1 && min>15)
     {
-    qs= (hora*3600.0 + min*60 + seg);
-    printf("Quantidade de segundos: %f\n", qs);
+        qs= (hora*3600.0 + min*60 + seg);
+        printf("Quantidade de segundos: %.1f\n", qs);
     }
     else
     {
-    qm= (hora*60 + min + seg/60);
-    printf("Quantidade de minutos: %f\n", qm);
+        qm= (hora*60 + min + seg/60);
+        printf("Quantidade de minutos: %.1f\n", qm);
     }
     return 0;
 }
